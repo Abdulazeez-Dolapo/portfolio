@@ -3130,11 +3130,9 @@
 									a > 1 && p(u),
 									a > 1 &&
 										f(
-											t
-												.slice(0, a - 1)
-												.concat({
-													value: " " === t[a - 2].type ? "*" : "",
-												})
+											t.slice(0, a - 1).concat({
+												value: " " === t[a - 2].type ? "*" : "",
+											})
 										).replace(rt, "$1"),
 									n,
 									a < i && v(t.slice(a, i)),
