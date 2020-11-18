@@ -5,10 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /* *! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css * */
-@font-face {
-	font-family: "mont", sans-serif;
-	src: url("./assets/fonts/Mont-Regular.otf");
-}
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -88,6 +84,10 @@ sup {
 }
 sub {
 	bottom: -0.25em;
+}
+.role {
+	font-weight: 900;
+	font-size: 2rem;
 }
 img {
 	border: 0;
@@ -1219,6 +1219,10 @@ pre code {
 	}
 }
 @media (min-width: 992px) {
+	.experience-row {
+		display: flex;
+		justify-content: space-evenly;
+	}
 	.col-md-1,
 	.col-md-2,
 	.col-md-3,
