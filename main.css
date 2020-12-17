@@ -4883,6 +4883,7 @@ button.close {
 .navbar-brand > .navbar-logo-img {
 	display: inline-block;
 	margin-top: -5px;
+	height: 40px;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff;
